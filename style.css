@@ -1,0 +1,112 @@
+/* Styling Umum */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Background biru muda untuk Header dan Footer */
+.bg-blue {
+    background-color: #ADD8E6; /* Light Blue */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+/* Styling Header */
+.header-container {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    justify-content: center;
+}
+.logo {
+    height: 80px;
+    margin-right: 20px;
+}
+.header-text {
+    text-align: center;
+}
+
+/* Styling Menu Kiri */
+.menu-container {
+    text-align: center;
+    padding: 20px;
+    border-right: 2px solid #ccc;
+    height: 100%;
+}
+.btn-red {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #DC143C; /* Merah */
+    color: white;
+    text-decoration: none;
+    border: 1px solid black;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+/* Styling Form Kanan */
+.content-container {
+    padding: 20px 50px;
+    background-color: #f9f9f9;
+    height: 100%;
+}
+h2 {
+    text-align: center;
+}
+.form-group {
+    display: flex;
+    margin-bottom: 15px;
+}
+.form-group label {
+    width: 100px;
+    font-weight: bold;
+}
+.form-group input, .form-group textarea {
+    flex: 1;
+    padding: 5px;
+}
+.btn-green {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50; /* Hijau */
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+.btn-green:hover {
+    background-color: #45a049;
+}
+.jadwal-container {
+    padding: 20px;
+}
+
+.jadwal-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.tabel-jadwal {
+    width: 90%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+}
+
+.tabel-jadwal th, .tabel-jadwal td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.bg-gray { background-color: #e0e0e0; }
+.bg-pink { background-color: #ffcccc; }
+.bg-green { background-color: #ccffcc; }
+.bg-blue { background-color: #ccccff; }
+.bg-yellow { background-color: #fff4cc; }
